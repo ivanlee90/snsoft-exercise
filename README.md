@@ -22,15 +22,21 @@ $ node findLongestString.js
 
 ### QUESTION 2 DEMO
 
-1. run script with argument
+1. run script with argument <last integer>, expected result: 1+2+...+<last integer>
 
 ```
-$ npm sumAll.js <any_integer_number>
+$ node sumAll.js <any_integer_number>
 ```
 
 ### QUESTION 3 DEMO
 
-// TODO:
+1. run script with argument <number of output array length, N>
+  2 arrays of random length between (10 to 30 will be generated and sorted), edit setting if wish to have other length of sample data
+  and then N number of smallest numbers will be searched from both array
+
+```
+$ node findXNumberOfSmallestNumber.js <N>
+```
 
 ### QUESTION 4 DEMO
 
@@ -38,5 +44,5 @@ $ npm sumAll.js <any_integer_number>
 2. run scripts to find all direct and indirect reportees using scripts with argument of employee.name found in <database>
 
 ```
-$ npm findAllReportees.js <employee_name>
+$ node findAllReportees.js <employee_name>
 ```
