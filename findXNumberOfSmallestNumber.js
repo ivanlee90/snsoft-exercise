@@ -1,11 +1,13 @@
 const x = process.argv[2]
 
-const a1L = getRandomInt(10, 20)
-const a2L = getRandomInt(10, 20)
+// random length of array (between 10 - 30) with be generated, set here for longer array
+const a1L = getRandomInt(10, 30)
+const a2L = getRandomInt(10, 30)
 
 let a1 = []
 let a2 = []
 
+// generate sample data, set here for wider range
 for (let i=0 ; i<a1L ; i++) a1.push(getRandomInt(5, 100))
 for (let i=0 ; i<a2L ; i++) a2.push(getRandomInt(5, 100))
 
